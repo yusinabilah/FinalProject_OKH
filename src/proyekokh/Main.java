@@ -16,7 +16,7 @@ import heuristics.SimulatedAnnealing;
 
 public class Main {
 	
-	static final String Directory = "D:/ProyekOKH/Toronto/";
+	static final String Directory = "D:/ProyekOKH/FinalProject_OKH/Toronto/";
 	
 	public static void main(String[] args) {
 		String crs = "";
