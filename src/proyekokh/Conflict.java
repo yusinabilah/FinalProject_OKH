@@ -4,11 +4,10 @@
  * and open the template in the editor.
  */
 package proyekokh;
-
 /**
  *
- * @author Lenovo
- */
+ * Author by Muris 
+  Modified by Mursyidatun Nabilah*/ 
 
 import java.io.BufferedReader;
 import java.io.FileReader;

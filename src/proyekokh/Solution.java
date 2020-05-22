@@ -7,8 +7,9 @@ package proyekokh;
 
 /**
  *
- * @author Lenovo
- */
+ * Author by Muris 
+  Modified by Mursyidatun Nabilah*/ 
+
 public class Solution {
 	private int[][] solution;
 	private Double penalty;

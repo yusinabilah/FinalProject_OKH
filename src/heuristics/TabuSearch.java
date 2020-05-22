@@ -7,8 +7,8 @@ package heuristics;
 
 /**
  *
- * @author Lenovo
- */
+ * Author by Muslikh
+  Modified by Mursyidatun Nabilah*/ 
 
 
 /*kodingan gagal*/

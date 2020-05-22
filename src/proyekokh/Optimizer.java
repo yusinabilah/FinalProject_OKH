@@ -7,8 +7,8 @@ package proyekokh;
 
 /**
  *
- * @author Lenovo
- */
+ * Author by Muris 
+  Modified by Mursyidatun Nabilah*/ 
 
 import proyekokh.Utils;
 

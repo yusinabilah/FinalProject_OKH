@@ -7,8 +7,9 @@ package proyekokh;
 
 /**
  *
- * @author Lenovo
- */
+ * Author by Muris 
+  Modified by Mursyidatun Nabilah*/ 
+
 import java.util.Set;
 import java.util.TreeSet;
 import java.util.HashSet;

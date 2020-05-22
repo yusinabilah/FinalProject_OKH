@@ -11,7 +11,7 @@ package proyekokh;
   Modified by Mursyidatun Nabilah*/ 
 import java.util.Scanner;
 import heuristics.LowLevelHe;
-import heuristics.GeneticAlgorithm;
+//import heuristics.GeneticAlgorithm;
 import heuristics.SimulatedAnnealing;
 
 public class Main {
@@ -123,7 +123,7 @@ public class Main {
 				break;
 		}
 		
-      /* System.out.println("Initial Solution");
+       System.out.println("Initial Solution");
         System.out.println("-- Results --");
 		
         CourseSet cs = new CourseSet(crs);
@@ -133,17 +133,23 @@ public class Main {
         int[][] solution = Schedule.getSaturationSchedule(cs.getSize(), cm.getDegree(), confMat);
 		Solution bestSolution = new Solution(solution);
 			System.out.println("Jumlah Timeslot : " + bestSolution.getJumlahTimeslot());
-		System.out.println("Penalty : " + Utils.getPenalty(confMat, solution, jumlahSiswa));
-                Utils.move(solution, 1);
-                Utils.swap(solution, 1);
+	//	System.out.println("Penalty : " + Utils.getPenalty(confMat, solution, jumlahSiswa));
+        int timeslot = 	bestSolution.getJumlahTimeslot();
+    System.out.println("Random Search");
+        System.out.println("-- Results --");
+		long startTime = System.nanoTime();
+				Optimizer.randomSearch(stu, crs, 100);
+			long endTime   = System.nanoTime();
+			long totalTime = endTime - startTime;
+			System.out.println((double)totalTime/1000000000 + " detik");    
 		
-     System.out.println("Hill Climbing");
+   /*   System.out.println("Hill Climbing");
         System.out.println("-- Results --");
 		long startTime = System.nanoTime();
 				Optimizer.hillClimbing(stu, crs, 100, 1000000);
 			long endTime   = System.nanoTime();
 			long totalTime = endTime - startTime;
-			System.out.println((double)totalTime/1000000000 + " detik");*/
+			System.out.println((double)totalTime/1000000000 + " detik");
         
     System.out.println("Simulated Annealing");
     System.out.println("-- Results --");
@@ -152,7 +158,7 @@ public class Main {
                         
 			long endTime2   = System.nanoTime();
 			long totalTime2 = endTime2 - startTime2;
-			System.out.println((double)totalTime2/1000000000 + " detik");
+			System.out.println((double)totalTime2/1000000000 + " detik");*/
                         
                         
 		

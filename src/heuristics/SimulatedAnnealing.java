@@ -7,8 +7,8 @@ package heuristics;
 
 /**
  *
- * @author Lenovo
- */
+ * Author by Muris 
+  Modified by Mursyidatun Nabilah*/ 
 
 import proyekokh.Conflict;
 import proyekokh.CourseSet;

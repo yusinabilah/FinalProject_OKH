@@ -7,8 +7,9 @@ package heuristics;
 
 /**
  *
- * @author Lenovo
- */
+ * Author by Muslikh
+  Modified by Mursyidatun Nabilah*/ 
+
 import java.util.Arrays;
 import java.util.Random;
 import proyekokh.Conflict;
